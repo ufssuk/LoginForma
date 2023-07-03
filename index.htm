@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+      /* *{
+        box-sizing: border-box;
+      } */
+      body{
+        font-family: Arial, Helvetica, sans-serif;
+        display: flex;
+        justify-content: center;
+      }
+      .forma{
+        display: grid;
+        gap: 60px;
+        width: 410px;
+
+      }
+      .labels{
+        width: 100%;
+        display: block;
+        color: #9D97FF;
+        font-weight: bold;
+      }
+      .virsraksts{
+        color: #6C63FF;
+        text-align: center;
+      }
+      .inputs{
+        border-color: #797979;
+        border-style: solid;
+        border-radius: 10px;
+        /* border: 5px solid red; */
+        width: 100%;
+        height: 60px;
+      }
+      .buttons{
+        
+      }
+    </style>
+</head>
+<body>
+    <form class="forma">
+      <h1 class="virsraksts">Login</h1>
+      <div>
+        <label for="user-email" class="labels">Email*</label>
+        <input type="email" name="user-email" id="user-email" placeholder="Email"
+        class="inputs">
+      </div>
+    
+      <div>
+        <label for="mypassword" class="labels">Password*</label>
+        <input type="password" id="mypassword" class="inputs">
+      </div>
+      <button type="submit" class="buttons">Login</button>
+    </form> 
+</body>
+</html>
